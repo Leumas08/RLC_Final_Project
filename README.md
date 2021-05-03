@@ -8,4 +8,6 @@ Link to stablebaselines3 Repository: https://github.com/DLR-RM/stable-baselines3
 
 To train and evaluate the DQN algorithm: python test_DQN.py <br/>
 To train and evaluate the PPO algorithm: python test_PPO.py <br/>
-To train and evaluate the A2C algorithm: python test_A2C.py
+To train and evaluate the A2C algorithm: python test_A2C.py <br/>
+
+The results can be created by executing "tensorboard --logdir <dir/folder/>" and opening the link displayed if the command was successful.
